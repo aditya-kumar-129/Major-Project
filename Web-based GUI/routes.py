@@ -113,8 +113,8 @@ def success(model_name, name):
     result = requestResults(model_name, name)
     title = str(model_name) + " Predictions"
     # return render_template('predictions.html', title=title, result=result)
-    return render_template('prediction2.html', title=title, result=result)
-    # return "<table>" + str(requestResults(model_name, name)) + "</table>"
+    # return render_template('prediction2.html', title=title, result=result)
+    return "<table>" + str(requestResults(model_name, name)) + "</table>"
 
 @app.route('/trace/<packet_src>')
 def trace(packet_src):
