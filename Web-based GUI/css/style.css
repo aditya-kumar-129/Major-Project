@@ -1,0 +1,44 @@
+* {
+  border: 0px;
+  padding: 0px;
+}
+
+.home {
+  background-color: skyblue;
+  text-align: center;
+  font-size: 45px;
+  color: white;
+  margin: 0;
+}
+
+.head {
+  text-align: center;
+  background-color: lightgrey;
+  margin: 0;
+  padding: 15px 0 0;
+}
+
+.background {
+  background-image: url(https://www.gyanvihar.org:3001/contentLibrary/1592639420264aimi-banner-mobike2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 1500px;
+  height: 750px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.option {
+  text-align: center;
+}
+
+.button {
+  margin-left: auto;
+  margin-right: auto;
+  height: 30px;
+  width: 30px;
+  font-size: larger;
+}
